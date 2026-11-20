@@ -1,43 +1,28 @@
 # Astro Starter Kit: Minimal
 
-```sh
+```
 npm create astro@latest -- --template minimal
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+# メモ
 
-## 🚀 Project Structure
+公開URL: https://github.io/hippopotamus26/
 
-Inside of your Astro project, you'll see the following folders and files:
+## 最初の環境構築
+1. `git clone https://github.com`
+2. `cd hippopotamus26`
+3. `npm install`
+4. `npm run dev` （確認URL: http://localhost:4321/hippopotamus26/ ）
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 毎日の開発ルール
+- **作業を始める前**に必ず最新化する：
+  `git pull origin main`
+- **作業が終わったあと**に保存＆本番公開する：
+  `git add .`
+  `git commit -m "変更内容"`
+  `git push origin main`
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 注意事項
+- 同じファイルを同時に編集しない（事前にチャット等で共有する）
+- リンクや `public` 内の画像パスには必ず `/hippopotamus26/` をつける
+- Publicリポジトリのため、パスワードやAPIキーは絶対に書かない！！！
